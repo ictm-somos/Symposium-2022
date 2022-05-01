@@ -2,10 +2,41 @@
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-header.h1 {
-  font-size: 3em;
+header {
+  margin: 0;
+  width: 100%;
+  background-image: linear-gradient(120deg, #c8102e, #007e11);
+  color: white;
 }
 
-h1 {
-  color: 'red';
+.content {
+  display: block;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2.5em 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header h2 {
+  margin: 0;
+  font-weight: lighter;
+}
+
+header div {
+  display: inline-block;
+}
+
+#title {
+  /* padding-left: 2em; */
+}
+
+#somos-logo {
+  vertical-align: top;
+}
+
+#somos-logo img{
+  height: 6em;
 }
