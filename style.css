@@ -13,7 +13,7 @@ header {
   display: block;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 2.5em 0;
+  padding: 2.5em 10px;
 }
 
 header h1 {
@@ -29,14 +29,28 @@ header div {
   display: inline-block;
 }
 
-#title {
-  /* padding-left: 2em; */
+#logos {
+  text-align: center;
+  margin: 5px auto;
+  padding: 0;
 }
 
-#somos-logo {
-  vertical-align: top;
+img {
+  margin: 0 1%;
 }
 
-#somos-logo img{
-  height: 6em;
+#somos {
+  width: 19%;
+}
+
+#ictm {
+  width: 12%;
+}
+
+#uab {
+  width: 18%;
+}
+
+#mtg {
+  width: 35%;
 }
