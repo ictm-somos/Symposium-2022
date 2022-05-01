@@ -16,6 +16,10 @@ header {
   padding: 2.5em 10px;
 }
 
+#title {
+  padding-bottom: 1em;
+}
+
 header h1 {
   margin: 0;
 }
@@ -29,14 +33,26 @@ header div {
   display: inline-block;
 }
 
+#index {
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+#index div {
+  text-align: center;
+  width: 20%;
+  padding: 10px 1%;
+}
+
 #logos {
   text-align: center;
-  margin: 5px auto;
+  margin: 10px auto;
   padding: 0;
 }
 
 img {
   margin: 0 1%;
+  vertical-align: middle;
 }
 
 #somos {
