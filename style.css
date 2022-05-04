@@ -18,7 +18,7 @@ header {
   display: block;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 10px 20px;
+  padding: 10px 10px;
 }
 
 #title {
@@ -77,48 +77,18 @@ img {
   width: 35%;
 }
 
-#venues {
-  width: 100%;
-  margin-bottom: 3em;
-}
-
-#venues div {
-  display: inline-block;
-  width: 45%;
-  min-width: 300px;
-  margin: 0 2%;
-}
-
-#venues h2 {
-  text-align: center;
-  margin-bottom: 5px 0;
-}
-
-#venues .date {
-  text-align: center;
-  margin-top: 2em;
-  font-variant: small-caps;
-}
-
-#venues h4 {
-  margin: 5px 0;
-}
-
-#venues p {
-  margin-top: 0;
-}
-
 .subteam {
   margin-top: 2em;
   margin-bottom: 0;
 }
 
 #team h4 {
-  margin-top: 0.5em;
+  margin-top: 1em;
   margin-bottom: 0;
 }
 
 #team p {
   margin-top: 0;
+  margin-bottom: 0;
   margin-left: 2em;
 }
