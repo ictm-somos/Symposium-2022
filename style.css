@@ -77,10 +77,21 @@ img {
   width: 35%;
 }
 
+#venues {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  #venues {
+    flex-direction: column;
+  }
+}
+
 .venue {
-  display: inline-block;
   box-sizing: border-box;
-  width: 49.5%;
+  flex: 50%;
   padding: 10px;
 }
 
@@ -88,16 +99,16 @@ img {
   text-align: center;
 }
 
-#venues h2 {
+.venue h2 {
   text-align: center;
   margin: 0.3em 0;
 }
 
-#venues h4 {
+.venue h4 {
   margin: 0;
 }
 
-#venues p {
+.venue p {
   margin: 0;
   margin-bottom: 0;
 }
