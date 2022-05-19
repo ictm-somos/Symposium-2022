@@ -2,7 +2,7 @@
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-a {
+#index a {
   color: white;
 }
 
@@ -103,6 +103,11 @@ table {
   width: 30%;
 }
 
+#kn {
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
 #venues {
   display: flex;
   /* flex-wrap: wrap; */
@@ -151,12 +156,12 @@ iframe {
   margin-bottom: 0;
 }
 
-#team h4 {
+#team h4, #kn-name {
   margin-top: 1em;
   margin-bottom: 0;
 }
 
-#team p {
+#team p, #kn-affiliation {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 2em;
