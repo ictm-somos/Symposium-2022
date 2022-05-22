@@ -124,6 +124,10 @@ table {
   margin-bottom: 0.5em;
 }
 
+.tip {
+  border-bottom: 1px solid black;
+}
+
 #venues {
   display: flex;
   /* flex-wrap: wrap; */
