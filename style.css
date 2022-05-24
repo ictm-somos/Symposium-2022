@@ -124,6 +124,11 @@ table {
   margin-bottom: 0.5em;
 }
 
+#presentations p {
+  text-indent: -2em;
+  padding-left: 2em;
+}
+
 .tip {
   border-bottom: 1px solid black;
 }
