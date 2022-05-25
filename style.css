@@ -119,13 +119,22 @@ table {
   width: 30%;
 }
 
-#kn {
+#kn, #presentations h2 {
   margin-top: 2em;
   margin-bottom: 0.5em;
+  border-bottom: 1px solid black;
 }
 
-#presentations p {
-  text-indent: -2em;
+#presentations a {
+  color: black;
+}
+
+.authors {
+  margin-top: 2em;
+  font-weight: bold;
+}
+
+.paper {
   padding-left: 2em;
 }
 
