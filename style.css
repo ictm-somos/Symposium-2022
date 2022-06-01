@@ -1,5 +1,6 @@
 * {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
 }
 
 #index a {
@@ -23,6 +24,11 @@ header {
 
 #title {
   padding-bottom: 1em;
+  color: white;
+  text-decoration: none;
+}
+
+#title a {
 }
 
 header h1 {
@@ -46,7 +52,7 @@ header div {
 #index div {
   vertical-align: middle;
   text-align: center;
-  width: 20%;
+  width: 17%;
   padding: 10px 1%;
 }
 
@@ -185,9 +191,13 @@ iframe {
   margin-top: 1em;
 }
 
-.hotel {
-  margin-top: 1em;
+.tips li {
+  margin-top: 1.2em;
 }
+
+/* .hotel {
+  margin-top: 1em;
+} */
 
 .subteam {
   margin-top: 2em;
