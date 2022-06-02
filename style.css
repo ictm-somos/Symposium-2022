@@ -28,9 +28,6 @@ header {
   text-decoration: none;
 }
 
-#title a {
-}
-
 header h1 {
   margin: 0;
 }
@@ -85,6 +82,48 @@ img {
 
 #kug {
   width: 11%;
+}
+
+#welcome {
+  text-align: center;
+}
+
+#welcome h1 {
+  margin-bottom: 0;
+  /* text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  color: linear-gradient(120deg, #c8102e, #007e11); */
+}
+
+#welcome h3 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+#highlights {
+  position: relative;
+  top: 0.75em;
+  width: 5.2em;
+  background-color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 1em;
+  padding: 0 0 0 0.2em;
+}
+
+#box {
+  margin: 0 1em 1em 1em;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+#box ul {
+  margin: 1.5em 1em 1em 1.5em;
+  padding-left: 1em;
+}
+
+#box li {
+  line-height: 2em;
+  font-size: 1.08em;
 }
 
 table, th, td {
