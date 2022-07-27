@@ -179,7 +179,11 @@ table {
   color: black;
 }
 
-.musician .pic {
+.kn-affiliation {
+  padding-bottom: 0.5em;
+}
+
+/* .musician .pic {
   float: right;
   margin-left: 1em;
   width: 200px;
@@ -188,9 +192,42 @@ table {
 
 .pic img {
   object-fit: cover;
-  object-position: 0 -40px;
   width: 100%;
   height: 100%;
+} */
+
+#musicians {
+  display: flex;
+  flex-direction: row;
+}
+
+.musician {
+  box-sizing: border-box;
+  flex: 50%;
+  position: relative;
+}
+
+.musician img {
+  width: 90%;
+  margin-left: 2em;
+  margin-top: 1em;
+  max-height: 350px;
+  object-fit: cover;
+}
+
+#MarcChemillier {
+  padding-right: 20px;
+}
+
+#JustinVali {
+  padding-left: 20px;
+}
+
+#JustinVali img {
+  width: 86.4%;
+  object-position: 0 35%;
+  position: absolute;
+  bottom: 6px;
 }
 
 .authors {
@@ -208,13 +245,31 @@ table {
 
 #venues {
   display: flex;
-  /* flex-wrap: wrap; */
   flex-direction: row;
 }
 
 @media (max-width: 800px) {
-  #venues {
+  #venues, #musicians {
     flex-direction: column;
+  }
+  .musician {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .musician img {
+    max-height: 100%;
+    width: 95%
+  }
+  #MarcChemillier {
+    padding-right: 0;
+  }
+  #JustinVali {
+    padding-left: 0;
+  }
+  #JustinVali img {
+    object-position: 0 0;
+    position: static;
+    width: 95%
   }
 }
 
