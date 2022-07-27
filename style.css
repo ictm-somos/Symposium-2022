@@ -248,7 +248,7 @@ table {
   flex-direction: row;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 910px) {
   #venues, #musicians {
     flex-direction: column;
   }
