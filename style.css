@@ -327,3 +327,21 @@ iframe {
   margin-bottom: 0;
   margin-left: 2em;
 }
+
+footer {
+  margin-top: 5em;
+  width: 100%;
+  margin-top: 3em;
+}
+
+footer p {
+  text-align: center;
+  padding: 15px;
+  margin: 0 auto;
+  width: 1000px;
+  border-top: 1px solid gray;
+}
+
+footer a {
+  text-decoration: none;
+}
