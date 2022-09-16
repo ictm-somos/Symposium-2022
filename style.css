@@ -169,13 +169,30 @@ table {
   width: 30%;
 }
 
-#kn, #concert, #presentations h2 {
+#kn, #concert {
+  font-variant: small-caps;
+  font-weight: normal;
   margin-top: 2em;
+  margin-bottom: 0.2em;
+}
+
+.section {
+  margin-top: 0;
   margin-bottom: 0.5em;
   border-bottom: 1px solid black;
 }
 
-#presentations a {
+#program .section {
+  margin-top: 2em;
+  /* border-bottom: 0; */
+  font-variant: small-caps;
+}
+
+/* #kn, #concert {
+  margin-top: 0;
+} */
+
+#program a {
   color: black;
 }
 
@@ -230,13 +247,31 @@ table {
   bottom: 6px;
 }
 
+.session {
+  margin-top: 3em;
+  margin-bottom: 0;
+  /* border-bottom: 1px solid black; */
+}
+
+.number {
+  margin-bottom: 0.5em;
+  margin-top: 1.5em;
+  font-style: italic;
+}
+
 .authors {
-  margin-top: 2em;
+  /* margin-top: 2em; */
   font-weight: bold;
+  padding-left: 2em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
 }
 
 .paper {
-  padding-left: 2em;
+  /* margin-top: 1em; */
+  padding-left: 4em;
+  margin-top: 0;
+  /* margin-bottom: 0; */
 }
 
 .tip {
