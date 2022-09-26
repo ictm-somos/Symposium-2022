@@ -271,7 +271,7 @@ table {
   /* margin-top: 1em; */
   padding-left: 4em;
   margin-top: 0;
-  /* margin-bottom: 0; */
+  margin-bottom: 0;
 }
 
 .tip {
@@ -306,6 +306,26 @@ table {
     position: static;
     width: 95%
   }
+}
+
+.abstract-button {
+  /* text-align: right; */
+  padding-left: 8em;
+  font-size: 0.9em;
+  margin-top: 0;
+}
+
+.abstract {
+  padding-left: 4em;
+  margin-bottom: 3em;
+  /* font-size: 0.9em; */
+}
+
+.reference {
+  padding-left: 2em;
+  text-indent: -2em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .venue {
