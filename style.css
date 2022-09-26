@@ -313,6 +313,7 @@ table {
   padding-left: 8em;
   font-size: 0.9em;
   margin-top: 0;
+  cursor: pointer;
 }
 
 .abstract {
