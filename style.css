@@ -308,6 +308,10 @@ table {
   }
 }
 
+.online {
+  font-style: normal;
+}
+
 .abstract-button {
   /* text-align: right; */
   padding-left: 8em;
