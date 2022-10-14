@@ -173,6 +173,19 @@ table {
   font-variant: small-caps;
   font-weight: normal;
   margin-top: 2em;
+}
+
+#kn {
+  margin-bottom: 0;
+}
+
+#kn-chair {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  padding-left: 2em;
+}
+
+#concert {
   margin-bottom: 0.2em;
 }
 
@@ -251,6 +264,12 @@ table {
   margin-top: 3em;
   margin-bottom: 0;
   /* border-bottom: 1px solid black; */
+}
+
+.chair {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 2em;
 }
 
 .number {
