@@ -173,9 +173,10 @@ table {
   font-variant: small-caps;
   font-weight: normal;
   margin-top: 2em;
+  margin-bottom: 0.2em;
 }
 
-#kn {
+/* #kn {
   margin-bottom: 0;
 }
 
@@ -187,7 +188,7 @@ table {
 
 #concert {
   margin-bottom: 0.2em;
-}
+} */
 
 .section {
   margin-top: 0;
