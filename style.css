@@ -41,8 +41,8 @@ header div {
 #index {
   padding: 10px;
   font-size: 1.2em;
-  /* display: flex; */
-  /* flex-direction: row; */
+  display: flex;
+  flex-direction: row;
 }
 
 #index a {
@@ -52,10 +52,10 @@ header div {
 #index div {
   vertical-align: middle;
   text-align: center;
-  /* flex: 20%; */
-  box-sizing: border-box;
+  flex: 20%;
+  /* box-sizing: border-box;
   max-width: 19%;
-  min-width: 300px;
+  min-width: 300px; */
   padding: 10px;
 }
 
@@ -319,8 +319,12 @@ table {
   /* #index div {
     width: 100px;
   } */
-  #venues, #musicians {
+  #venues, #musicians, #index {
     flex-direction: column;
+  }
+  #index div {
+    padding: 0;
+    margin: 0.1em;
   }
   .musician {
     padding-left: 0;
@@ -365,6 +369,11 @@ table {
   padding-left: 2em;
   text-indent: -2em;
   margin-top: 0;
+  margin-bottom: 0;
+}
+
+#open-session .authors {
+  margin-top: 0.5em;
   margin-bottom: 0;
 }
 
