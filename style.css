@@ -3,13 +3,9 @@
   line-height: 1.5em;
 }
 
-#index a {
-  color: white;
-}
-
 header {
   margin: 0;
-  width: 100%;
+  width:  100%;
   background-image: linear-gradient(120deg, #c8102e, #007e11);
   color: white;
   padding-top: 2.5em;
@@ -45,13 +41,22 @@ header div {
 #index {
   padding: 10px;
   font-size: 1.2em;
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+
+#index a {
+  color: white;
 }
 
 #index div {
   vertical-align: middle;
   text-align: center;
-  width: 17%;
-  padding: 10px 1%;
+  /* flex: 20%; */
+  box-sizing: border-box;
+  width: 19%;
+  min-width: 100px;
+  padding: 10px;
 }
 
 #logos {
@@ -130,6 +135,12 @@ header div {
 /* #box li {
   line-height: 2em;
   font-size: 1.08em;
+} */
+
+/* table {
+  table-layout: fixed;
+  width: 100%;
+  word-wrap: break-word;
 } */
 
 table, th, td {
@@ -305,6 +316,9 @@ table {
 }
 
 @media (max-width: 910px) {
+  /* #index div {
+    width: 100px;
+  } */
   #venues, #musicians {
     flex-direction: column;
   }
