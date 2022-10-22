@@ -54,7 +54,7 @@ header div {
   text-align: center;
   /* flex: 20%; */
   box-sizing: border-box;
-  width: 19%;
+  max-width: 19%;
   min-width: 100px;
   padding: 10px;
 }
