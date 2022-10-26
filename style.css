@@ -219,7 +219,7 @@ table {
   margin-top: 0;
 } */
 
-#program a {
+#program a :not(#download){
   color: black;
 }
 
